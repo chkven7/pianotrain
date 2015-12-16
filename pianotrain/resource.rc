@@ -1,0 +1,807 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "piano.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 248, 129
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PianoTrain"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         132,IDC_VNCLOGO,"Static",SS_BITMAP | SS_SUNKEN,7,7,100,
+                    80
+    CTEXT           "  PianoTrain version 1.0",IDC_STATIC_VERSION,117,15,115,
+                    10
+    DEFPUSHBUTTON   "&OK",IDOK,123,105,50,14
+    CTEXT           "Copyright (C) 2012-2014 \nJordi Tomas \n\nwww.pianotrain.es\nchkven7@gmail.com",
+                    IDC_STATIC_COPYRIGHTS,129,33,98,49
+END
+
+DIAL_APPR DIALOGEX 20, 16, 547, 450
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pianotrain Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "MUSICA ALEATORIA",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,25,18,154,14,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_COMPAS,125,43,57,12
+    LTEXT           "Compas:",-1,25,44,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MAXINTERSOL,125,100,57,12
+    LTEXT           "Maximo Intervalo en SOL:",-1,25,102,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MININTERSOL,125,113,57,12
+    LTEXT           "Minimo Intervalo en SOL:",-1,25,114,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MAXINTERFA,125,127,57,12
+    LTEXT           "Maximo Intervalo en FA:",-1,25,129,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MININTERFA,125,141,57,12
+    LTEXT           "Minimo Intervalo en FA:",-1,25,142,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_ARMA,125,58,57,12
+    LTEXT           "Armadura:",-1,25,58,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_NUMCOMPAS,125,153,57,12
+    LTEXT           "Nº de compases:",-1,25,156,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Finguering:",-1,25,87,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_BLOQSOL,125,167,57,12,ES_AUTOHSCROLL
+    LTEXT           "Bloques ritmicos en SOL:",-1,25,168,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_BLOQFA,125,180,57,12,ES_AUTOHSCROLL
+    LTEXT           "Bloques ritmicos en FA:",-1,25,180,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_REPEATG,125,194,57,12,ES_AUTOHSCROLL
+    LTEXT           "Repite Compases en SOL:",-1,25,195,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_REPEATF,125,210,57,12,ES_AUTOHSCROLL
+    LTEXT           "Repite compases en FA:",-1,25,211,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    COMBOBOX        IDC_RANDMODE,125,239,59,58,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Tipo de Generacion:",-1,25,239,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    COMBOBOX        IDC_NOTERESE,299,41,58,42,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Tipo de Localizacion:",-1,201,43,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_METRONOMO,471,201,57,12,ES_AUTOHSCROLL
+    LTEXT           "Metronomo",-1,373,201,88,10,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Analisis Ritmico",-1,25,306,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MAXCOMPASCREEN,472,266,57,12,ES_AUTOHSCROLL
+    LTEXT           "Compases en Pantalla",-1,373,266,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_FINGUERN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    155,87,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_FINGUERY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    125,87,27,12,WS_EX_RIGHT
+    CONTROL         "No",IDC_RITMON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    159,306,24,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RITMOY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    125,305,27,12,WS_EX_RIGHT
+    DEFPUSHBUTTON   "&OK",IDOK,131,412,50,14
+    PUSHBUTTON      "&CANCEL",IDCANCEL,371,412,50,14
+    CONTROL         "LOCALIZACION DE NOTAS",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,201,18,154,14,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "LOCALIZACION DE INTERVALOS",-1,"Static",
+                    SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | SS_SUNKEN | 
+                    WS_GROUP,201,306,155,14,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAXINTERSOL_NOTEINT,299,322,57,12
+    LTEXT           "Maximo Intervalo en SOL:",-1,201,322,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MININTERSOL_NOTEINT,299,335,57,12
+    LTEXT           "Minimo Intervalo en SOL:",-1,201,335,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MAXINTERFA_NOTEINT,299,348,57,12
+    LTEXT           "Maximo Intervalo en FA:",-1,201,350,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MININTERFA_NOTEINT,299,362,57,12
+    LTEXT           "Minimo Intervalo en FA:",-1,201,215,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MAXINTERVAL_FLASHNOTEINT,299,276,57,12
+    LTEXT           "Maximo Intervalo:",-1,201,276,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MININTERVAL_FLASHNOTEINT,299,290,57,12
+    LTEXT           "Minimo Intervalo:",-1,201,292,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "FLASHCARDS DE INTERVALOS",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,201,258,154,14,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "OTRAS OPCIONES",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,373,177,153,14,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAXVARIACION,125,255,57,12,ES_AUTOHSCROLL
+    LTEXT           "Max. cambios en compas",-1,25,255,90,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Añadir Silencios",-1,25,223,90,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_SILENCION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    156,223,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_SILENCIOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,223,27,12,WS_EX_RIGHT
+    EDITTEXT        IDC_ACCURACYNOTES,471,216,57,12,ES_AUTOHSCROLL
+    LTEXT           "Precision en Notas",-1,373,215,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_ACCURACYTEMPO,471,231,57,12,ES_AUTOHSCROLL
+    LTEXT           "Precision en Compas",-1,373,231,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Armadura:",-1,201,58,88,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_ARMANOTEREADING,299,57,57,12
+    LTEXT           "Armadura:",-1,201,382,88,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_ARMANOTEINTERVAL,299,378,57,12
+    CONTROL         "OPCIONES DE SOLFEO",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,373,18,154,14,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Una Octava:",-1,373,42,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_SINGOCTAVAN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,504,42,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_SINGOCTAVAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,469,42,27,12,WS_EX_RIGHT
+    LTEXT           "Accidentes:",-1,201,71,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGACCIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,332,71,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGACCIY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,300,71,27,12,WS_EX_RIGHT
+    LTEXT           "Parar Si Error:",-1,373,247,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_STOPONERRORN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,504,245,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_STOPONERRORY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,471,246,27,12,WS_EX_RIGHT
+    LTEXT           "Accidentes:",-1,25,74,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_RANDOMMUSICACCIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,157,74,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RANDOMMUSICACCIY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,74,27,12,WS_EX_RIGHT
+    EDITTEXT        IDC_MAXINTERSOL_NOTEREAD,299,170,57,12
+    LTEXT           "Maximo Intervalo en SOL:",-1,201,170,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MININTERSOL_NOTEREAD,299,183,57,12
+    LTEXT           "Minimo Intervalo en SOL:",-1,201,183,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MAXINTERFA_NOTEREAD,299,199,57,12
+    LTEXT           "Maximo Intervalo en FA:",-1,201,199,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MININTERFA_NOTEREAD,299,215,57,12
+    LTEXT           "Minimo Intervalo en FA:",-1,201,366,88,10,SS_SUNKEN
+    CONTROL         "OPCIONES DE OIDO",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,373,92,154,14,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Una Octava:",-1,373,113,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_EAROCTAVAN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,504,111,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_EAROCTAVAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,470,111,27,12,WS_EX_RIGHT
+    EDITTEXT        IDC_MAXTONO_EARNOTEREAD,472,145,57,12
+    LTEXT           "Maximo Tono:",-1,373,147,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MINTONO_EARNOTEREAD,472,158,57,12
+    LTEXT           "Minimo Tono:",-1,373,159,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "Oido Absoluto",IDC_OIDOABSOLUTO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,373,130,58,10
+    CONTROL         "Oido Relativo",IDC_OIDORELATIVO,"Button",
+                    BS_AUTORADIOBUTTON,466,130,63,10
+    CONTROL         "Solfeo Hablado",IDC_SOLFEOHABLADO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,374,61,70,10
+    CONTROL         "Solfeo Cantado",IDC_SOLFEOCANTADO,"Button",
+                    BS_AUTORADIOBUTTON,466,61,63,10
+    LTEXT           "Modo de ocultacion",-1,25,273,90,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    COMBOBOX        IDC_OCULTANOTA,125,270,57,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Ritmo Asistido",-1,43,378,76,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_RITMOASISN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,156,377,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RITMOASISY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,377,27,12,WS_EX_RIGHT
+    CONTROL         "No",IDC_SIGUEMEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    156,364,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_SIGUEMEY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    125,364,27,12,WS_EX_RIGHT
+    LTEXT           "Sigueme",-1,43,364,64,12,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_REPMALRITMON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,156,390,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_REPMALRITMOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,390,27,12,WS_EX_RIGHT
+    LTEXT           "Repetir si error ritmo",-1,43,393,76,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    PUSHBUTTON      "",IDC_OPENFILE,185,240,8,10
+    LTEXT           "Acordes:",-1,201,83,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGCHORDN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,332,83,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGCHORDY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,300,83,27,12,WS_EX_RIGHT
+    LTEXT           "Usa Figuras:",-1,201,123,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGFIGURN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,332,123,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGFIGURY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,300,123,27,12,WS_EX_RIGHT
+    LTEXT           "Ver Siguientes:",-1,201,97,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGDEEPN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,332,97,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGDEEPY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,300,97,27,12,WS_EX_RIGHT
+    EDITTEXT        IDC_NOTEREADINGMEMO,328,140,30,12
+    LTEXT           "Memoria Visual en X notas(0 a 6):",-1,201,140,121,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Lectura Adelantada:",-1,221,154,71,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGLEADN,"Button",BS_3STATE | 
+                    WS_TABSTOP,332,154,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGLEADY,"Button",BS_3STATE | 
+                    WS_TABSTOP,300,154,27,12,WS_EX_RIGHT
+    CONTROL         "No",IDC_RANDOMMUSICQOSRITMON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,156,321,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RANDOMMUSICQOSRITMOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,321,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Ritmo",-1,43,321,64,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_RANDOMMUSICQOSCOMPASN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,156,337,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RANDOMMUSICQOSCOMPASY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,337,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Tempo",-1,43,334,81,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_RANDOMMUSICQOSLEGATON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,156,348,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RANDOMMUSICQOSLEGATOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,350,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Legato",-1,43,348,64,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Fingering:",-1,201,110,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGFINGERN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,332,110,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGFINGERY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,300,110,27,12,WS_EX_RIGHT
+    CONTROL         "No",IDC_NOTEREADQOSRITMON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,329,228,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADQOSRITMOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,297,228,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Ritmo",-1,201,228,64,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADQOSLEGATON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,329,241,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADQOSLEGATOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,297,241,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Legato",-1,201,243,64,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Solo Ritmo sin Melodia",-1,25,290,76,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_SOLORITMON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,156,289,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_SOLORITMOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,289,27,12,WS_EX_RIGHT
+END
+
+DIAL_EJE1 DIALOGEX 20, 16, 351, 286
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pianotrain  Configuration"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_NOTERESE,117,35,58,42,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Tipo de Localizacion:",-1,19,37,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Minimo Intervalo en FA:",-1,19,238,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Armadura:",-1,19,52,88,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_ARMANOTEREADING,117,51,57,12
+    LTEXT           "Accidentes:",-1,19,64,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGACCIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,65,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGACCIY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,118,65,27,12,WS_EX_RIGHT
+    EDITTEXT        IDC_MAXINTERSOL_NOTEREAD,117,192,57,12
+    LTEXT           "Maximo Intervalo en SOL:",-1,19,192,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MININTERSOL_NOTEREAD,117,206,57,12
+    LTEXT           "Minimo Intervalo en SOL:",-1,19,206,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MAXINTERFA_NOTEREAD,117,222,57,12
+    LTEXT           "Maximo Intervalo en FA:",-1,19,222,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MININTERFA_NOTEREAD,117,238,57,12
+    LTEXT           "Acordes:",-1,19,77,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGCHORDN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,77,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGCHORDY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,118,77,27,12,WS_EX_RIGHT
+    LTEXT           "Usa Figuras:",-1,19,118,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGFIGURN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,118,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGFIGURY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,118,118,27,12,WS_EX_RIGHT
+    LTEXT           "Ver Siguientes:",-1,19,91,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGDEEPN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,91,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGDEEPY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,118,91,27,12,WS_EX_RIGHT
+    EDITTEXT        IDC_NOTEREADINGMEMO,146,161,30,12
+    LTEXT           "Memoria Visual en X notas(0 a 6):",-1,19,161,121,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Lectura Adelantada:",-1,39,177,71,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGLEADN,"Button",BS_3STATE | 
+                    WS_TABSTOP,150,177,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGLEADY,"Button",BS_3STATE | 
+                    WS_TABSTOP,118,177,27,12,WS_EX_RIGHT
+    CONTROL         "LOCALIZACION DE NOTAS",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,18,10,156,14,
+                    WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "&OK",IDOK,99,260,50,14
+    PUSHBUTTON      "&CANCEL",IDCANCEL,197,260,50,14
+    CONTROL         "OPCIONES DE SOLFEO",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,185,10,154,14,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Una Octava:",-1,185,34,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_SINGOCTAVAN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,316,34,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_SINGOCTAVAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,281,34,27,12,WS_EX_RIGHT
+    CONTROL         "OPCIONES DE OIDO",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,185,84,154,14,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Una Octava:",-1,185,105,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_EAROCTAVAN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,316,103,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_EAROCTAVAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,282,103,27,12,WS_EX_RIGHT
+    EDITTEXT        IDC_MAXTONO_EARNOTEREAD,284,137,57,12
+    LTEXT           "Maximo Tono:",-1,185,139,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MINTONO_EARNOTEREAD,284,150,57,12
+    LTEXT           "Minimo Tono:",-1,185,151,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "Oido Absoluto",IDC_OIDOABSOLUTO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,185,122,58,10
+    CONTROL         "Oido Relativo",IDC_OIDORELATIVO,"Button",
+                    BS_AUTORADIOBUTTON,278,122,63,10
+    CONTROL         "Solfeo Hablado",IDC_SOLFEOHABLADO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,186,53,70,10
+    CONTROL         "Solfeo Cantado",IDC_SOLFEOCANTADO,"Button",
+                    BS_AUTORADIOBUTTON,278,53,63,10
+    LTEXT           "Parar Si Error:",-1,185,175,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_STOPONERRORN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,316,173,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_STOPONERRORY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,283,174,27,12,WS_EX_RIGHT
+    LTEXT           "Fingering:",-1,19,104,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADINGFINGERN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,104,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADINGFINGERY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,118,104,27,12,WS_EX_RIGHT
+    CONTROL         "No",IDC_NOTEREADQOSRITMON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,148,129,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADQOSRITMOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,118,129,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Ritmo",-1,19,129,64,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_NOTEREADQOSLEGATON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,148,142,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_NOTEREADQOSLEGATOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,118,142,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Legato",-1,19,144,64,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+END
+
+DIAL_EJE3 DIALOGEX 20, 16, 177, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pianotrain  Configuration"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_MAXINTERVAL_FLASHNOTEINT,107,29,57,12
+    LTEXT           "Maximo Intervalo:",-1,9,30,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MININTERVAL_FLASHNOTEINT,107,43,57,12
+    LTEXT           "Minimo Intervalo:",-1,9,45,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "FLASHCARDS DE INTERVALOS",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,9,11,154,14,
+                    WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "&OK",IDOK,25,68,50,14
+    PUSHBUTTON      "&CANCEL",IDCANCEL,107,68,50,14
+END
+
+DIAL_EJE4 DIALOGEX 20, 16, 190, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pianotrain  Configuration"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "LOCALIZACION DE INTERVALOS",-1,"Static",
+                    SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | SS_SUNKEN | 
+                    WS_GROUP,17,13,155,14,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAXINTERSOL_NOTEINT,115,28,57,12
+    LTEXT           "Maximo Intervalo en SOL:",-1,17,29,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MININTERSOL_NOTEINT,115,41,57,12
+    LTEXT           "Minimo Intervalo en SOL:",-1,17,41,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MAXINTERFA_NOTEINT,115,55,57,12
+    LTEXT           "Maximo Intervalo en FA:",-1,17,56,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MININTERFA_NOTEINT,115,69,57,12
+    LTEXT           "Armadura:",-1,17,88,88,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_ARMANOTEINTERVAL,115,85,57,12
+    LTEXT           "Minimo Intervalo en FA:",-1,17,72,88,10,SS_SUNKEN
+    DEFPUSHBUTTON   "&OK",IDOK,42,129,50,14
+    PUSHBUTTON      "&CANCEL",IDCANCEL,108,129,50,14
+    LTEXT           "Parar Si Error:",-1,17,104,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_STOPONERRORN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,148,102,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_STOPONERRORY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,115,103,27,12,WS_EX_RIGHT
+END
+
+DIAL_EJE6 DIALOGEX 20, 16, 402, 331
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pianotrain  Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "MUSICA ALEATORIA",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,33,13,154,14,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_COMPAS,133,41,57,12
+    LTEXT           "Compas:",-1,33,42,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MAXINTERSOL,133,98,57,12
+    LTEXT           "Maximo Intervalo en SOL:",-1,33,100,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MININTERSOL,133,111,57,12
+    LTEXT           "Minimo Intervalo en SOL:",-1,33,112,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MAXINTERFA,133,125,57,12
+    LTEXT           "Maximo Intervalo en FA:",-1,33,127,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_MININTERFA,133,139,57,12
+    LTEXT           "Minimo Intervalo en FA:",-1,33,140,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_ARMA,133,56,57,12
+    LTEXT           "Armadura:",-1,33,56,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_NUMCOMPAS,133,151,57,12
+    LTEXT           "Nº de compases:",-1,33,154,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Finguering:",-1,33,85,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_BLOQSOL,133,165,57,12,ES_AUTOHSCROLL
+    LTEXT           "Bloques ritmicos en SOL:",-1,33,166,88,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_BLOQFA,133,178,57,12,ES_AUTOHSCROLL
+    LTEXT           "Bloques ritmicos en FA:",-1,33,178,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_REPEATG,133,192,57,12,ES_AUTOHSCROLL
+    LTEXT           "Repite Compases en SOL:",-1,33,193,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_REPEATF,133,208,57,12,ES_AUTOHSCROLL
+    LTEXT           "Repite compases en FA:",-1,33,209,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    COMBOBOX        IDC_RANDMODE,133,237,59,58,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Tipo de Generacion:",-1,33,237,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_FINGUERN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    163,85,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_FINGUERY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    133,85,27,12,WS_EX_RIGHT
+    EDITTEXT        IDC_MAXVARIACION,133,253,57,12,ES_AUTOHSCROLL
+    LTEXT           "Max. cambios en compas",-1,33,253,90,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Añadir Silencios",-1,33,221,90,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_SILENCION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    163,221,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_SILENCIOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,133,221,27,12,WS_EX_RIGHT
+    LTEXT           "Accidentes:",-1,33,72,82,10,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_RANDOMMUSICACCIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,165,72,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RANDOMMUSICACCIY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,133,72,27,12,WS_EX_RIGHT
+    LTEXT           "Modo de ocultacion",-1,33,271,90,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    COMBOBOX        IDC_OCULTANOTA,133,268,57,60,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Analisis Ritmico",-1,217,55,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_RITMON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    349,52,28,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RITMOY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    317,53,27,12,WS_EX_RIGHT
+    LTEXT           "Ritmo Asistido",-1,235,124,76,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_RITMOASISN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,349,124,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RITMOASISY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,124,27,12,WS_EX_RIGHT
+    CONTROL         "No",IDC_SIGUEMEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    349,108,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_SIGUEMEY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    317,108,27,12,WS_EX_RIGHT
+    LTEXT           "Sigueme",-1,235,108,64,12,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "No",IDC_REPMALRITMON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,349,135,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_REPMALRITMOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,135,27,12,WS_EX_RIGHT
+    LTEXT           "Repetir si error ritmo",-1,235,137,76,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_RANDOMMUSICQOSRITMON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,349,68,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RANDOMMUSICQOSRITMOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,68,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Ritmo",-1,235,66,64,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_RANDOMMUSICQOSCOMPASN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,349,82,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RANDOMMUSICQOSCOMPASY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,82,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Tempo",-1,235,79,81,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_RANDOMMUSICQOSLEGATON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,349,95,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_RANDOMMUSICQOSLEGATOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,95,27,12,WS_EX_RIGHT
+    LTEXT           "Puntua Legato",-1,235,94,64,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    DEFPUSHBUTTON   "&OK",IDOK,109,302,50,14
+    PUSHBUTTON      "&CANCEL",IDCANCEL,205,302,50,14
+    EDITTEXT        IDC_METRONOMO,315,174,57,12,ES_AUTOHSCROLL
+    LTEXT           "Metronomo",-1,217,174,88,10,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_MAXCOMPASCREEN,316,233,57,12,ES_AUTOHSCROLL
+    LTEXT           "Compases en Pantalla",-1,217,233,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "OTRAS OPCIONES",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,217,156,153,14,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_ACCURACYNOTES,315,189,57,12,ES_AUTOHSCROLL
+    LTEXT           "Precision en Notas",-1,217,187,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    EDITTEXT        IDC_ACCURACYTEMPO,315,203,57,12,ES_AUTOHSCROLL
+    LTEXT           "Precision en Compas",-1,217,203,88,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Parar Si Error:",-1,217,219,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_STOPONERRORN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,348,219,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_STOPONERRORY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,315,219,27,12,WS_EX_RIGHT
+    CONTROL         "OPCIONES DE SOLFEO",-1,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_GROUP,217,248,154,14,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Una Octava:",-1,217,266,82,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_SINGOCTAVAN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,348,266,25,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_SINGOCTAVAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,313,266,27,12,WS_EX_RIGHT
+    CONTROL         "Solfeo Hablado",IDC_SOLFEOHABLADO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,217,279,70,10
+    CONTROL         "Solfeo Cantado",IDC_SOLFEOCANTADO,"Button",
+                    BS_AUTORADIOBUTTON,309,279,63,10
+    PUSHBUTTON      "",IDC_OPENFILE,195,238,8,10
+    LTEXT           "Solo Ritmo sin Melodia",-1,217,41,76,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "No",IDC_SOLORITMON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,350,42,27,12,WS_EX_RIGHT
+    CONTROL         "Yes",IDC_SOLORITMOY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,317,42,27,12,WS_EX_RIGHT
+END
+
+DIAL_INFORM DIALOG DISCARDABLE  26, 26, 183, 70
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_NOFAILCREATE | 
+    WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Procesando"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+DIAL_GOTO DIALOG DISCARDABLE  20, 16, 106, 59
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ir a Compas"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_GOTOCOMPAS,59,13,35,12
+    LTEXT           "Compas:",-1,19,14,35,10,SS_CENTERIMAGE | SS_SUNKEN
+    DEFPUSHBUTTON   "&OK",IDOK,19,32,36,16
+END
+
+DIAL_PLAY DIALOGEX 20, 16, 129, 78
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Opciones de Play"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    RADIOBUTTON     "Solo compas actual:",IDC_PLAYONLYACT,17,10,76,12,0,
+                    WS_EX_RIGHT
+    RADIOBUTTON     "A partir del compas actual:",IDC_PLAYFROMACT,17,30,96,
+                    12,0,WS_EX_RIGHT
+    DEFPUSHBUTTON   "&OK",IDOK,17,52,41,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_FINGER              CURSOR  DISCARDABLE     "lrhand.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_VNCLOGO             BITMAP  DISCARDABLE     "pianotrain.bmp"
+IDB_CHECK               BITMAP  DISCARDABLE     "check.bmp"
+IDB_CLOCKSAND           BITMAP  DISCARDABLE     "clocksand.bmp"
+IDB_KEY                 BITMAP  DISCARDABLE     "key.bmp"
+IDB_WOODU               BITMAP  DISCARDABLE     "woodu.bmp"
+IDB_WOODD               BITMAP  DISCARDABLE     "woodd.bmp"
+IDB_MICRO               BITMAP  DISCARDABLE     "micro.bmp"
+IDB_MICROON             BITMAP  DISCARDABLE     "microon.bmp"
+IDB_RITMON              BITMAP  DISCARDABLE     "directornegro.bmp"
+IDB_RITMOY              BITMAP  DISCARDABLE     "directorverde.bmp"
+IDB_OKAN                BITMAP  DISCARDABLE     "nok.bmp"
+IDB_OKAY                BITMAP  DISCARDABLE     "ok.bmp"
+IDB_OKANH               BITMAP  DISCARDABLE     "nokh.bmp"
+IDB_OKAYH               BITMAP  DISCARDABLE     "okh.bmp"
+IDB_CFG                 BITMAP  DISCARDABLE     "keycfg.bmp"
+IDB_GAME1               BITMAP  DISCARDABLE     "game1.bmp"
+IDB_GAME2               BITMAP  DISCARDABLE     "game2.bmp"
+IDB_GAME3               BITMAP  DISCARDABLE     "game3.bmp"
+IDB_GAME4               BITMAP  DISCARDABLE     "game4.bmp"
+IDB_GAME5               BITMAP  DISCARDABLE     "game5.bmp"
+IDB_GAME6               BITMAP  DISCARDABLE     "game6.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "splash.bmp"
+IDB_EARN                BITMAP  DISCARDABLE     "ear.bmp"
+IDB_EARY                BITMAP  DISCARDABLE     "earverde.bmp"
+IDB_REPE                BITMAP  DISCARDABLE     "repeat.bmp"
+IDB_CFGY                BITMAP  DISCARDABLE     "keycfgy.bmp"
+IDB_HANDL               BITMAP  DISCARDABLE     "handl.bmp"
+IDB_HANDR               BITMAP  DISCARDABLE     "handr.bmp"
+IDB_HANDLL              BITMAP  DISCARDABLE     "handll.bmp"
+IDB_HANDRL              BITMAP  DISCARDABLE     "handrl.bmp"
+IDB_PLAYN               BITMAP  DISCARDABLE     "playn.bmp"
+IDB_PLAYY               BITMAP  DISCARDABLE     "playy.bmp"
+IDB_GOTO                BITMAP  DISCARDABLE     "goto.bmp"
+IDB_METRON              BITMAP  DISCARDABLE     "metron.bmp"
+IDB_METROY              BITMAP  DISCARDABLE     "metroy.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE1               WAVE    MOVEABLE PURE   "StartTic.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+DIAL_APPR DLGINIT
+BEGIN
+    IDC_NOTERESE, 0x403, 5, 0
+0x6f68, 0x616c, "\000" 
+    0
+END
+
+DIAL_EJE1 DLGINIT
+BEGIN
+    IDC_NOTERESE, 0x403, 5, 0
+0x6f68, 0x616c, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    DIAL_APPR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 529
+        BOTTOMMARGIN, 446
+    END
+
+    DIAL_EJE4, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 160
+    END
+
+    DIAL_EJE6, DIALOG
+    BEGIN
+        RIGHTMARGIN, 388
+    END
+
+    DIAL_PLAY, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 77
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

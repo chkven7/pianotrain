@@ -1,0 +1,63 @@
+     %!HARMONY ABC @
+     %Harmony/Melody File to ABC Vers 3.0.8 April 1998-June 2012
+     %Written by Guillion Bros. on a Chris Walshaw format
+     %Please e-mail us your comments and bugs reports : didier@myriad-online.com
+     %Sábado 9 de agosto de 2014 17:20:40
+
+
+X:1     %Music
+T:     %Tune name
+C:     %Tune composer
+N:     %Tune infos
+Q:1/4=80     %Tempo
+V:1     %
+     %!STAVE 0 'Piano' @
+     %!INSTR 'Grand Piano' 1 0 @
+|:
+M:4/4     %Meter
+L:1/8     %
+K:E
+f/g/ (b3 b)gfe |b2 b(f f)f e2 ::
+B2 B(B B)AGA |B2 B(B B)Bcd |d2 e(G MG4) |
+z2 B2 B2 B2 |B A2 G A4 |z2 z E E2 F2 |G6 [c2^A2] |
+[d8^B8] |=B B2 (B B)AGA |B2 B(B B)Bcd |
+d2 z e (G4 |G2) B2 B2 B2 |(3B2(3A2(3G2 A4 |A3 e e2 f2 |
+[d8^B8] |z2 dd ^e2 f2 |
+K:Db
+[(f8(d8(a8] |[d2)a2)f2)] [f2d2a2] [(3d2(3a2(3f2](3g2(3f2 |
+[d2B2f2] g[(B(e(d] [d2)B2)e2)] (d2 |d2) dd e f2 [(e(b(g] |[(e8)(b8)(g8)] |[g2)e2)b2)] [e2b2g2] [(3g2(3e2(3b2](3a2(3g2 |
+[(c8(a8(e8] |[e2)c2)a2)] ee f2 [e2g2] |[(d8(a8(f8] |[f2)d2)a2)] [d2a2f2] [(3f2(3d2(3a2](3g2(3f2 |
+f2 B2 (e4 |e3) d d2 e2 |f4 (3z2(3e2 (3f2 |B6 G2 |[1
+d8 |
+K:E
+_c8 :|[2(d8 |d3) d d2 e2 |
+K:Db
+
+f4 (3z2(3e2 (3f2 |B6 G2 |(d8 |d2) ge _c'2 g2 |
+[(d8(a8(f8] |[(f8)(d8)(a8)] |[(d8)(a8)(f8)] |[f8)d8)a8)] |[Hd8Ha8Hf8] |
+V:2     %
+     %!STAVE 0 'Piano-5' @
+     %!INSTR 'Grand Piano' 5 0 @
+|:
+M:4/4     %Meter
+L:1/8     %
+K:E clef=bass
+[G,3F,3E3B,3] E,, B,,,2 B,,2 |[B,3G,3F,3E3] [(G,(F,(E(B,] [G,2)F,2)E2)B,2)] [B,2G,2F,2E2] ::
+E,,3 [(G,(E(B,] [G,2)E2)B,2)] [B,2G,2E2] |D,,3 [(G,(D(B,] [G,2)D2)B,2)] G,,2 |C,3 [(G,(E(C] [G,2)E2)C2)] C,2 |
+G,,4 [C2G,2E2] [G,2E2C2] |A,,3 [E,CA,] [A,2E,2C2] [E,2C2A,2] |A,,3 [A,E,C] [E,2C2A,2] [A,2E,2C2] |G,,3 [G,D^B,] [G,2D2B,2] D,2 |
+G,,3 [G,D^B,] [B,2G,2D2] F,,2 |E,,3 [(=B,(G,(E] [G,2)E2)B,2)] [G,2E2B,2] |D,,3 [(B,(G,(D] [G,2)D2)B,2)] G,,2 |
+C,3 [(G,(E(C] [C2)G,2)E2)] C,2 |G,,4 [G,2E2C2] [G,2E2C2] |A,,4 E,2 [E,2C2A,2] |A,,3 [E,CA,] [A,2E,2C2] E,2 |
+G,,3 [G,D^B,] [G,2D2B,2] [B,2G,2D2] |G,,4 [G,2F,2D,2^B,2] [F,2D,2B,2G,2] |
+K:Db clef=bass
+D,3 D, C,3 C, |B,,2 [D2A,2F2] F,,4 |
+G,,2 [B,2G,2D2] [G,2D2B,2] [G,2D2B,2] |G,,2 [B,2G,2D2] [G,2D2B,2] [G,2D2B,2] |E,3 E, D,3 D, |C,3 C, B,,4 |
+A,,3 [A,G,EC] [C2A,2G,2E2] [A,2G,2E2C2] |A,,4 [C2A,2G,2E2] [A,2G,2E2C2] |D,3 D, C,3 C, |B,,3 B,, F,,4 |
+G,,2 [G,2D2B,2] [G,2D2B,2] [B,2G,2D2] |G,,2 [G,4D4B,4] [G,2D2B,2] |[B,4G,4E,4D4] [G,4E,4D4B,4] |[G,4E,4D4B,4] [B,4G,4E,4D4] |[1
+_C,4 [G,4E4__B,4] |
+K:E clef=bass
+_C,4 [__B,4G,4E4_C4] :|[2_C,4 [G,4E4__B,4] |_C,4 [G,4E4__B,4] |
+K:Db clef=bass
+
+E,,4 [B,4G,4E,4D4] |E,,4 [G,4E,4D4B,4] |_C,4 [__B,4G,4E4] |_C,4 [G,2E2__B,2] [G,2E2B,2] |
+D,,2 [D2A,2F2] [A,2F2D2] [A,2F2D2] |D,,2 [D2A,2F2] [A,2F2D2] [A,2F2D2] |D,,2 [D2A,2F2] [A,2F2D2] [A,2F2D2] |D,,2 [D2A,2F2] [A,2F2D2] [D2A,2F2] |[HD,,8HF,8HA,,8] |
+     %End of file

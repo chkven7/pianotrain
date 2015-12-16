@@ -1,0 +1,39 @@
+X: 1
+T: from C:\Archivos de programa\Microsoft Visual Studio\MyProjects\Piano\midi\all_time_hight_3.mid
+M: 4/4
+L: 1/8
+Q:1/4=80
+K:E % 4 sharps
+% Flute
+V:1
+% Piano
+%%MIDI program 0
+f/2g/2b4g fe| \
+ (3b2-b/2b2- b/2f2-f/2f e2| \
+f/2g/2b4g fe| \
+ (3b2-b/2b2- b/2f2-f/2f e2|
+ (3B2-B/2B2- B/2B2-B/2A GA| \
+ (3B2-B/2B2- B/2B2-B/2B cd| \
+d2 eG4-G-| \
+G3 (3B2-B/2B2-B/2B2-B/2|
+% Piano
+% Piano
+% Piano
+% Piano-2
+% Piano-2
+% Piano-3
+% Piano-3
+% Piano-4
+% Piano-4
+% Piano-5
+V:2
+% Piano-5
+%%MIDI program 0
+[E3B,3G,3F,3]E,, B,,,2 B,,2| \
+[E3B,3G,3F,3][E3B,3G,3F,3] [E2B,2G,2F,2]| \
+[E3B,3G,3F,3]E,, B,,,2 B,,2| \
+[E3B,3G,3F,3][E3B,3G,3F,3] [E2B,2G,2F,2]|
+E,,3[E3B,3G,3] [E2B,2G,2]| \
+D,,3[D3B,3G,3] G,,2| \
+C,3[E3C3G,3] C,2| \
+G,,4 [E2C2G,2] [E2C2G,2]|
