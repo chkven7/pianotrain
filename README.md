@@ -5,4 +5,5 @@ Currently it has flaws, I release it because I have no time to follow programmin
 The user interface is written on spanish, if you want you can to tranlate to english. 
 If you want to compile it, please use visual C++ 6.0. 
 The project is on pianotrain directory piano.dsw. Double click on it and will compile. 
+My email is chkven7@gmail.com to any problem.
 
